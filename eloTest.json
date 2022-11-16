@@ -1,0 +1,82 @@
+[{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea18"
+  },
+  "users": "red",
+  "score ": "130",
+  "closest": [
+    "ams",
+    "bible",
+    "jeff",
+    "dragon",
+    "barcode"
+  ]
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea19"
+  },
+  "users": "dragon",
+  "score ": "179",
+  "closest": [
+    "apple",
+    "ams",
+    "red",
+    "bible",
+    "jeff"
+  ]
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea1a"
+  },
+  "users": "jeff",
+  "score ": "98"
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea1b"
+  },
+  "users": "bible",
+  "score ": "100"
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea1c"
+  },
+  "users": "barcode",
+  "score ": "70"
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea1d"
+  },
+  "users": "arte",
+  "score ": "20",
+  "closest": [
+    "kirby",
+    "luna",
+    "barcode",
+    "jeff",
+    "bible"
+  ]
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea1e"
+  },
+  "users": "ams",
+  "score ": "150"
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea1f"
+  },
+  "users": "luna",
+  "score ": "40"
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea20"
+  },
+  "users": "kirby",
+  "score ": "0"
+},{
+  "_id": {
+    "$oid": "637429a8f4c9cd1e77caea21"
+  },
+  "users": "apple",
+  "score ": "200"
+}]
