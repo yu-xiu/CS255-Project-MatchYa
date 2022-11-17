@@ -3,9 +3,11 @@ package edu.sjsu.matchya;
 import com.mongodb.*;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.Projections;
+import com.sun.deploy.util.StringUtils;
 import org.bson.Document;
 import java.util.*;
-
+import static com.mongodb.client.model.Filters.eq;
 public class MyMatchYa {
     public static void main(String[] args) {
         // Creates a new instance of MongoDBClient and connect to localhost
@@ -16,8 +18,8 @@ public class MyMatchYa {
         // Gets the mathcyaDB from the MongoDB instance.
         MongoDatabase database = client.getDatabase("matchyaDB");
 
-        // Gets the matchyadb collections from the database.
-        MongoCollection<Document> collection = database.getCollection("matchyadb");
+        // Gets the myMatchyaDB collections from the database.
+        MongoCollection<Document> collection = database.getCollection("myMatchyaDB");
 
         // Gets a single document or the first entry from this collection.
         Document document = collection.find().first();
@@ -29,6 +31,26 @@ public class MyMatchYa {
         testDCC();
         testNaiveC();
         getTestArray();
+
+        System.out.println();
+
+        System.out.println("------------test to get array from the DB-------------");
+        Document userInput = collection.find((eq("username", "daeni"))).projection(Projections.fields(Projections.include("inversions"))).first();
+        System.out.println(Objects.requireNonNull(userInput).toJson());
+
+        // get the username, inversions from the db
+        List<Document> rankingDB = collection.find().projection(Projections.fields(Projections.include(
+                "inversions","username",
+                "movie"))).into(new ArrayList<Document>());
+        for (Document d : rankingDB) {
+            System.out.println(Objects.requireNonNull(d).toJson());
+        }
+
+        System.out.println("___________________-test-__________________");
+        getRankingArrayFromDB(collection);
+
+
+
     }
 
     public static void testDCC() {
@@ -60,6 +82,7 @@ public class MyMatchYa {
         System.out.println("The time elapsed naive counting inversions is: "
                 + (endNCTime - startNCTime));
     }
+
     /**
      * Naive Approach to count the inversions in an array
      * loop through the array and check the rest number with the current number
@@ -104,8 +127,6 @@ public class MyMatchYa {
         }
         return count;
     }
-
-
 
     /**
      * Counting inversions crossing the whole array
@@ -173,9 +194,36 @@ public class MyMatchYa {
         return count;
     }
 
+    /**
+     * Print an array used for testing the comparison of naive and D&C counting inversions
+     * */
     public static void getTestArray() {
         for (int i = 150; i >= 1; i--) {
             System.out.print(i + ", ");
         }
+    }
+
+    public static HashMap<String, ArrayList<Integer>> getRankingArrayFromDB(MongoCollection<Document> collection) {
+        HashMap<String, ArrayList<Integer>> array = new HashMap<String, ArrayList<Integer>>();
+
+        List<Document> movieDB = collection.find().projection(Projections.fields(Projections.include(
+                "movie"))).into(new ArrayList<Document>());
+
+        ArrayList<Integer> rankingList = new ArrayList<Integer>();
+        for (Document d : movieDB) {
+
+            Object s = d.get("movie");
+            Object n = d.get("movie", Document.class).get("Horror");
+            int num = (Integer) n;
+            //int num = Integer.valueOf(n);
+            //System.out.println(Objects.requireNonNull(d).toJson());
+
+
+            System.out.print(d.get("movie", Document.class).get("Comedy"));
+            System.out.println(num);
+
+        }
+
+        return array;
     }
 }
