@@ -20,21 +20,23 @@ public class MyMatchYa {
         // Gets the myMatchyaDB collections from the database.
         MongoCollection<Document> collection = database.getCollection("myMatchyaDB");
 
-        // Gets a single document or the first entry from this collection.
+        // Test of querying the first entry from this collection.
         Document document = collection.find().first();
 
         // Prints out the document.
         System.out.println(Objects.requireNonNull(document).toJson());
 
-        // a test of counting inversions algorithm
+        // a test of naive and D&C counting inversions algorithm
         testDCC();
         testNaiveC();
+        // generate testing array
         getTestArray();
 
         System.out.println();
 
         System.out.println("------------test to get array from the DB-------------");
-        Document userInput = collection.find((eq("username", "daeni"))).projection(Projections.fields(Projections.include("inversions"))).first();
+        Document userInput = collection.find((eq("username", "daeni"))).
+                projection(Projections.fields(Projections.include("inversions"))).first();
         System.out.println(Objects.requireNonNull(userInput).toJson());
 
         // get the username, inversions from the db
@@ -44,14 +46,17 @@ public class MyMatchYa {
             System.out.println(Objects.requireNonNull(d).toJson());
         }
 
-//        Document namedoc = rankingDB.("username");
-//        String id = rankingDB.get("username").toString();
         System.out.println("__________________test read rankings of user from DB__________________");
+        // the username and the list of rankings pair
         HashMap<String, ArrayList<Integer>> map = new HashMap<String, ArrayList<Integer>>();
         map = getRankingArrayFromDB(collection);
 
         System.out.println("____________________test inversion list________________");
-        computeInversions(map);
+        // the username and inversion score pair
+        HashMap<String, Integer> usrScorePair = computeInversions(map);
+
+        // update DB score and inversions field
+        updateDBInversionsAndScore(usrScorePair, collection);
 
     }
 
@@ -190,7 +195,6 @@ public class MyMatchYa {
             arr[k] = B[currentB];
             k++;
             currentB++;
-
         }
 
         return count;
@@ -262,8 +266,6 @@ public class MyMatchYa {
             rankingList.add(opinions.getInteger("Life struggles"));
             rankingList.add(opinions.getInteger("Happiness in life"));
 
-
-
             //System.out.print(d.get("movie", Document.class).get("Comedy"));
             //System.out.println(num);
             map.put(name, rankingList);
@@ -276,19 +278,6 @@ public class MyMatchYa {
 
         System.out.println(map.size());
         return map;
-    }
-
-    public static ArrayList<Integer> getMovieRanking(MongoCollection<Document> collection) {
-        ArrayList<Integer> movieRankingList = new ArrayList<Integer>();
-        List<Document> movieDB = collection.find().projection(Projections.fields(Projections.include(
-                "movie"))).into(new ArrayList<Document>());
-
-        for (Document d : movieDB) {
-            movieRankingList.add((Integer) d.get("movie", Document.class).get("Horror"));
-
-
-        }
-        return movieRankingList;
     }
 
     /**
@@ -320,13 +309,11 @@ public class MyMatchYa {
                     tempArr[i] = num + 5;
                     i++;
                 }
-
                 if (k > 9 && k <= 14) {
                     num += 1;
                     tempArr[i] = num + 10;
                     i++;
                 }
-
                 if (k > 14 && k <= 19) {
                     num += 1;
                     tempArr[i] = num + 15;
@@ -340,6 +327,7 @@ public class MyMatchYa {
             }
             // now tempArr contains distinct numbers from 1 to 25
             System.out.println(entry.getKey() + " " + Arrays.toString(tempArr));
+            // compute the inversions use D&C counting inversion
             inversions = sortAndCount(tempArr, 0, tempArr.length - 1);
 
             resMap.put(username, inversions);
@@ -356,8 +344,14 @@ public class MyMatchYa {
     /**
      * update the inversions and score field in the DB
      * */
-    public static void updateDBInversionsAndScore(int inversions) {
-
+    public static void updateDBInversionsAndScore(HashMap<String, Integer> map, MongoCollection<Document> collection) {
+        for (Map.Entry<String, Integer> entry: map.entrySet()) {
+            String name = entry.getKey();
+            int score = entry.getValue();
+            collection.updateOne((eq("username",name)),
+                    new Document("$set", new Document("inversions", score)));
+            collection.updateOne((eq("username",name)), new Document("$set", new Document("score", score)));
+        }
     }
 
 }

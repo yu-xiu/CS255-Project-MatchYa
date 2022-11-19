@@ -51,14 +51,13 @@
       <file leaf-file-name="MyMatchYa.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="356" column="54" lean-forward="false" selection-start-line="356" selection-start-column="54" selection-end-line="356" selection-end-column="54" />
+            <state relative-caret-position="1518">
+              <caret line="196" column="23" lean-forward="false" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2127#2155#0" expanded="true" />
-                <element signature="e#14658#14686#0" expanded="true" />
-                <element signature="e#15033#15042#0" expanded="true" />
-                <element signature="e#17924#17933#0" expanded="true" />
+                <element signature="e#2124#2152#0" expanded="true" />
+                <element signature="e#14854#14882#0" expanded="true" />
+                <element signature="e#15229#15238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +86,7 @@
     <findStrings>
       <find>array</find>
       <find>63756496a546c9ad7fac9fd5</find>
+      <find>Alex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -376,7 +376,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33947772" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17050691" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30261138" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -403,31 +403,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>127</line>
+          <line>132</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>174</line>
+          <line>179</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>159</line>
+          <line>164</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>268</line>
+          <line>270</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>201</line>
+          <line>205</line>
           <properties class="edu.sjsu.matchya.MyMatchYa" method="getTestArray">
             <option name="EMULATED" value="true" />
           </properties>
@@ -463,10 +463,9 @@
           <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2127#2155#0" expanded="true" />
-            <element signature="e#14658#14686#0" expanded="true" />
-            <element signature="e#15033#15042#0" expanded="true" />
-            <element signature="e#17924#17933#0" expanded="true" />
+            <element signature="e#2124#2152#0" expanded="true" />
+            <element signature="e#14854#14882#0" expanded="true" />
+            <element signature="e#15229#15238#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,10 +502,9 @@
           <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2127#2155#0" expanded="true" />
-            <element signature="e#14658#14686#0" expanded="true" />
-            <element signature="e#15033#15042#0" expanded="true" />
-            <element signature="e#17924#17933#0" expanded="true" />
+            <element signature="e#2124#2152#0" expanded="true" />
+            <element signature="e#14854#14882#0" expanded="true" />
+            <element signature="e#15229#15238#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -581,14 +579,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="356" column="54" lean-forward="false" selection-start-line="356" selection-start-column="54" selection-end-line="356" selection-end-column="54" />
+        <state relative-caret-position="1518">
+          <caret line="196" column="23" lean-forward="false" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2127#2155#0" expanded="true" />
-            <element signature="e#14658#14686#0" expanded="true" />
-            <element signature="e#15033#15042#0" expanded="true" />
-            <element signature="e#17924#17933#0" expanded="true" />
+            <element signature="e#2124#2152#0" expanded="true" />
+            <element signature="e#14854#14882#0" expanded="true" />
+            <element signature="e#15229#15238#0" expanded="true" />
           </folding>
         </state>
       </provider>
