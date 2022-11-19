@@ -4,7 +4,6 @@ import com.mongodb.*;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Projections;
-import com.sun.deploy.util.StringUtils;
 import org.bson.Document;
 import java.util.*;
 import static com.mongodb.client.model.Filters.eq;
@@ -40,16 +39,19 @@ public class MyMatchYa {
 
         // get the username, inversions from the db
         List<Document> rankingDB = collection.find().projection(Projections.fields(Projections.include(
-                "inversions","username",
-                "movie"))).into(new ArrayList<Document>());
+                "username"))).into(new ArrayList<Document>());
         for (Document d : rankingDB) {
             System.out.println(Objects.requireNonNull(d).toJson());
         }
 
-        System.out.println("___________________-test-__________________");
-        getRankingArrayFromDB(collection);
+//        Document namedoc = rankingDB.("username");
+//        String id = rankingDB.get("username").toString();
+        System.out.println("__________________test read rankings of user from DB__________________");
+        HashMap<String, ArrayList<Integer>> map = new HashMap<String, ArrayList<Integer>>();
+        map = getRankingArrayFromDB(collection);
 
-
+        System.out.println("____________________test inversion list________________");
+        computeInversions(map);
 
     }
 
@@ -203,27 +205,159 @@ public class MyMatchYa {
         }
     }
 
+    /**
+     * Read in user rankings from myMatchyaDB as a map
+     * map key: user name
+     * map value: users total rankings of five categories
+     * */
     public static HashMap<String, ArrayList<Integer>> getRankingArrayFromDB(MongoCollection<Document> collection) {
-        HashMap<String, ArrayList<Integer>> array = new HashMap<String, ArrayList<Integer>>();
+        HashMap<String, ArrayList<Integer>> map = new HashMap<String, ArrayList<Integer>>();
 
+        List<Document> movieDB = collection.find().projection(Projections.fields(Projections.include("_id",
+                "username","music", "movie", "hobbies", "shopping", "opinions"))).into(new ArrayList<Document>());
+
+        int count = 0;
+        for (Document d : movieDB) {
+            ArrayList<Integer> rankingList = new ArrayList<Integer>();
+            String id = d.get("_id").toString();
+            String name = d.get("username").toString();
+
+            //Object s = d.get("movie");
+            // int num = (Integer) d.get("movie", Document.class).get("Horror");
+            //int num = Integer.valueOf(n);
+            //System.out.println(Objects.requireNonNull(d).toJson());
+            Document music = d.get("music", Document.class);
+            Document movie = d.get("movie", Document.class);
+            Document hobbies = d.get("hobbies", Document.class);
+            Document shopping = d.get("shopping", Document.class);
+            Document opinions = d.get("opinions", Document.class);
+
+            rankingList.add(music.getInteger("slow songs"));
+            rankingList.add(music.getInteger("country"));
+            rankingList.add(music.getInteger("pop"));
+            rankingList.add(music.getInteger("rock"));
+            rankingList.add(music.getInteger("jazz"));
+
+            rankingList.add(movie.getInteger("Horror"));
+            rankingList.add(movie.getInteger("Comedy"));
+            rankingList.add(movie.getInteger("Sci-fi"));
+            rankingList.add(movie.getInteger("Fantasy"));
+            rankingList.add(movie.getInteger("Action"));
+
+            rankingList.add(hobbies.getInteger("Mathmetics"));
+            rankingList.add(hobbies.getInteger("History"));
+            rankingList.add(hobbies.getInteger("Reading"));
+            rankingList.add(hobbies.getInteger("Dancing"));
+            rankingList.add(hobbies.getInteger("Outdoor activity"));
+
+            rankingList.add(shopping.getInteger("large shopping centers"));
+            rankingList.add(shopping.getInteger("Spending on looks"));
+            rankingList.add(shopping.getInteger("Branded clothing"));
+            rankingList.add(shopping.getInteger("fragual with money"));
+            rankingList.add(shopping.getInteger("Only what you need"));
+
+            rankingList.add(opinions.getInteger("get angry very easily"));
+            rankingList.add(opinions.getInteger("cry when feel down"));
+            rankingList.add(opinions.getInteger("always full of life and energy"));
+            rankingList.add(opinions.getInteger("Life struggles"));
+            rankingList.add(opinions.getInteger("Happiness in life"));
+
+
+
+            //System.out.print(d.get("movie", Document.class).get("Comedy"));
+            //System.out.println(num);
+            map.put(name, rankingList);
+            count++;
+        }
+
+        for (Map.Entry<String,ArrayList<Integer>> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + Arrays.toString(entry.getValue().toArray()));
+        }
+
+        System.out.println(map.size());
+        return map;
+    }
+
+    public static ArrayList<Integer> getMovieRanking(MongoCollection<Document> collection) {
+        ArrayList<Integer> movieRankingList = new ArrayList<Integer>();
         List<Document> movieDB = collection.find().projection(Projections.fields(Projections.include(
                 "movie"))).into(new ArrayList<Document>());
 
-        ArrayList<Integer> rankingList = new ArrayList<Integer>();
         for (Document d : movieDB) {
+            movieRankingList.add((Integer) d.get("movie", Document.class).get("Horror"));
 
-            Object s = d.get("movie");
-            Object n = d.get("movie", Document.class).get("Horror");
-            int num = (Integer) n;
-            //int num = Integer.valueOf(n);
-            //System.out.println(Objects.requireNonNull(d).toJson());
-
-
-            System.out.print(d.get("movie", Document.class).get("Comedy"));
-            System.out.println(num);
 
         }
-
-        return array;
+        return movieRankingList;
     }
+
+    /**
+     * Compute number of inversions based on the rankings from the map
+     * return a map with
+     * key: user name;
+     * value: the number of inversions
+     * */
+    public static HashMap<String, Integer> computeInversions(HashMap<String, ArrayList<Integer>> map) {
+        int inversions = 0;
+        HashMap<String, Integer> resMap = new HashMap<>();
+
+        for (Map.Entry<String,ArrayList<Integer>> entry : map.entrySet()) {
+            String username = entry.getKey();
+            // 5 categories has a total 25 rankings
+            int[] tempArr = new int[25];
+            int i = 0;
+            ArrayList<Integer> list = entry.getValue();
+            for (int k = 0; k < list.size(); k++) {
+                int num = list.get(k);
+                // first 5 rankings in the music category
+                if (k <= 4) {
+                    num += 1;
+                    tempArr[i] = num;
+                    i++;
+                }
+                if (k > 4 && k <= 9) {
+                    num += 1;
+                    tempArr[i] = num + 5;
+                    i++;
+                }
+
+                if (k > 9 && k <= 14) {
+                    num += 1;
+                    tempArr[i] = num + 10;
+                    i++;
+                }
+
+                if (k > 14 && k <= 19) {
+                    num += 1;
+                    tempArr[i] = num + 15;
+                    i++;
+                }
+                if (k > 19 && k <= 24) {
+                    num += 1;
+                    tempArr[i] = num + 20;
+                    i++;
+                }
+            }
+            // now tempArr contains distinct numbers from 1 to 25
+            System.out.println(entry.getKey() + " " + Arrays.toString(tempArr));
+            inversions = sortAndCount(tempArr, 0, tempArr.length - 1);
+
+            resMap.put(username, inversions);
+        }
+
+        for (Map.Entry<String, Integer> entry : resMap.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+
+        //System.out.println(resMap.size());
+        return resMap;
+    }
+
+    /**
+     * update the inversions and score field in the DB
+     * */
+    public static void updateDBInversionsAndScore(int inversions) {
+
+    }
+
 }
