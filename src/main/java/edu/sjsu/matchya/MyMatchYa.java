@@ -31,8 +31,6 @@ public class MyMatchYa {
         Comparison.testDCC();
         Comparison.testNaiveC();
         Comparison.testParallelC();
-        // generate testing array
-        getTestArray();
 
         System.out.println();
 
@@ -79,7 +77,6 @@ public class MyMatchYa {
                 }
             }
         }
-
         return count;
     }
 
@@ -175,14 +172,6 @@ public class MyMatchYa {
         return count;
     }
 
-    /**
-     * Print an array used for testing the comparison of naive and D&C counting inversions
-     * */
-    public static void getTestArray() {
-        for (int i = 150; i >= 1; i--) {
-            System.out.print(i + ", ");
-        }
-    }
 
     /**
      * Read in user rankings from myMatchyaDB as a map
@@ -302,16 +291,17 @@ public class MyMatchYa {
             }
             // now tempArr contains distinct numbers from 1 to 25
             System.out.println(entry.getKey() + " " + Arrays.toString(tempArr));
+
             // compute the inversions use naive counting inversion
-            //inversions = getNaiveCount(tempArr);
+            long startDccTime = System.nanoTime();
+            inversions = getNaiveCount(tempArr);
 
-            // compute the inversions use D&C counting inversion
-            //inversions = sortAndCount(tempArr, 0, tempArr.length - 1);
+//            // compute the inversions use D&C counting inversion
+//            inversions = sortAndCount(tempArr, 0, tempArr.length - 1);
 
-            // compute the inversions use parallel counting inversion
-            ParallelCountingInversions pc = new ParallelCountingInversions();
-            inversions = pc.computeCount(tempArr);
-
+//            // compute the inversions use parallel counting inversion
+//            ParallelCountingInversions pc = new ParallelCountingInversions();
+//            inversions = pc.computeCount(tempArr);
 
             resMap.put(username, inversions);
         }

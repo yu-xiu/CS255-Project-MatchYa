@@ -43,10 +43,10 @@ public class ParallelCountingInversions {
 
                 invokeAll(firstTask, secondTask);
 
-                // merge
                 int lCount = firstTask.getCount();
                 int rCount = secondTask.getCount();
                 int mergedCount = MyMatchYa.mergeAndCount(array, left, mid, right) ;
+                // sync
                 this.count = lCount + rCount + mergedCount;
             }
         }
