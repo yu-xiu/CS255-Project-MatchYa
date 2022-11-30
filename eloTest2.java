@@ -100,10 +100,10 @@ public class eloTest2 {
         MongoCollection<Document> collection = database.getCollection("myMatchyaDBupdated");
 
         //access a single 2 specific columns: scores and username
-        List<Document> eloDB = collection.find().projection(Projections.fields(Projections.include("score","username"),Projections.excludeId())).into(new ArrayList<>()); // this stays
-        Document userInput = collection.find((eq("username",userNum))).projection(Projections.fields(Projections.include("score"),Projections.excludeId())).first(); // this stays
+        List<Document> eloDB = collection.find().projection(Projections.fields(Projections.include("score","username"),Projections.excludeId())).into(new ArrayList<>()); //list document of all usernames and scores
+        Document userInput = collection.find((eq("username",userNum))).projection(Projections.fields(Projections.include("score"),Projections.excludeId())).first(); //document of usernames and scores (paired)
 
-        List<String> output = eloFunction( eloDB,userInput ); //call elo function S
+        List<String> output = eloFunction( eloDB,userInput ); //call elo function
 
         //update DB with a closest value connecting it back to the corresponding user
         collection.updateOne((eq("username",userNum)),new Document("$set", new Document("closest", output)));
