@@ -66,25 +66,17 @@ public class MyMatchYa {
         // call the elo algorithm to list 5 matches
         //list document of all usernames and scores
         //get user input ( username of a user within the DB )
+
+        // update DB score and inversions field
+        updateDBInversionsAndScore(usrScorePair, collection);
+
         Scanner input = new Scanner(System.in);
         System.out.println("Enter username");
 
         String userNum = input.nextLine();  // Read user input
         System.out.println("Username is: " + userNum);
 
-        List<Document> eloDB = collection.find().projection(Projections.fields(Projections.include
-                ("score","username"),Projections.excludeId())).into(new ArrayList<Document>());
-        //document of usernames and scores (paired)
-        Document userInput = collection.find((eq("username",userNum))).projection(Projections.fields
-                (Projections.include("score"),Projections.excludeId())).first();
-
-        List<String> output = eloFunction( eloDB,userInput ); //call elo function
-
-        //update DB with a closest value connecting it back to the corresponding user
-        collection.updateOne((eq("username",userNum)),new Document("$set", new Document("closest", output)));
-
-        // update DB score and inversions field
-        updateDBInversionsAndScore(usrScorePair, collection);
+        applyElo(userNum, collection);
 
     }
 
@@ -209,13 +201,15 @@ public class MyMatchYa {
      * map value: users total rankings of five categories
      * */
     public static HashMap<String, ArrayList<Integer>> getRankingArrayFromDB(MongoCollection<Document> collection) {
+        // stores user name and their total rankings of 25 questions
         HashMap<String, ArrayList<Integer>> map = new HashMap<String, ArrayList<Integer>>();
 
-        List<Document> movieDB = collection.find().projection(Projections.fields(Projections.include("_id",
+        // a partial MongoDB document contains user id, name, and their answers of the 25 questions
+        List<Document> fieldsDB = collection.find().projection(Projections.fields(Projections.include("_id",
                 "username","music", "movie", "hobbies", "shopping", "opinions"))).into(new ArrayList<Document>());
 
-        //int count = 0;
-        for (Document d : movieDB) {
+        // pre-process the data
+        for (Document d : fieldsDB) {
             // a list to store the rankings
             ArrayList<Integer> rankingList = new ArrayList<Integer>();
             String id = d.get("_id").toString();
@@ -259,19 +253,9 @@ public class MyMatchYa {
             rankingList.add(opinions.getInteger("Life struggles"));
             rankingList.add(opinions.getInteger("Happiness in life"));
 
-            //System.out.print(d.get("movie", Document.class).get("Comedy"));
-            //System.out.println(num);
             map.put(name, rankingList);
-            //count++;
         }
 
-//        // debug printing, prints out the username and their 25 rankings
-//        for (Map.Entry<String, ArrayList<Integer>> entry : map.entrySet()) {
-//            System.out.println(entry.getKey() + " " + Arrays.toString(entry.getValue().toArray()));
-//        }
-
-        // debug printing, the size of the map
-        //System.out.println(map.size());
         return map;
     }
 
@@ -327,18 +311,16 @@ public class MyMatchYa {
                     i++;
                 }
             }
-            // now tempArr contains distinct numbers from 1 to 25
-//            System.out.println(entry.getKey() + " " + Arrays.toString(tempArr));
+
+            //compute the inversions use D&C counting inversion
+            inversions = sortAndCount(tempArr, 0, tempArr.length - 1);
+
+            /* the following are the tests of computing the inversions using D&C and parallel methods
+            they are commented out since we are using naive for now, we leave them for easy testing and comparison*/
 
             // compute the inversions use naive counting inversion
-            long startDccTime = System.nanoTime();
-            inversions = getNaiveCount(tempArr);
-
-            // the following are the tests of computing the inversions using D&C and parallel methods
-            // they are commented out since we are using naive for now, we leave them for easy testing and comparison
-
-//            // compute the inversions use D&C counting inversion
-//            inversions = sortAndCount(tempArr, 0, tempArr.length - 1);
+//            long startDccTime = System.nanoTime();
+//            inversions = getNaiveCount(tempArr);
 
 //            // compute the inversions use parallel counting inversion
 //            ParallelCountingInversions pc = new ParallelCountingInversions();
@@ -347,12 +329,6 @@ public class MyMatchYa {
             resMap.put(username, inversions);
         }
 
-//        debugging print of users and their inversion score
-//        for (Map.Entry<String, Integer> entry : resMap.entrySet()) {
-//            System.out.println(entry.getKey() + " " + entry.getValue());
-//        }
-
-        //System.out.println(resMap.size());
         return resMap;
     }
 
@@ -371,20 +347,23 @@ public class MyMatchYa {
         }
     }
 
-
+    /**
+     * Elo algorithm to the users' inversion scores to calculate their final score
+     * which is used to list the best matches
+     * */
     public static List<String> eloFunction(List<Document> eloDB,Document userInput ){
 
         List<Float> userScores = new ArrayList<Float>(); //to hold the list of user's score
 
         for (Document myMatchyaDBupdated:eloDB){// for every user and score within the db
-            int s = myMatchyaDBupdated.getInteger("score");
+            int s = myMatchyaDBupdated.getInteger("inversions");
             float score = s; //add the score
             userScores.add(score);
             //System.out.println("score " + score); //users original scores before elo application
         }
 
         //retrieve info on current user's score before elo
-        int currentUser =userInput.getInteger("score");
+        int currentUser =userInput.getInteger("inversions");
         float currentUserScore = currentUser;
         //System.out.println(Objects.requireNonNull(userInput).toJson()); // prints current user's score before elo
 
@@ -406,20 +385,22 @@ public class MyMatchYa {
             matchmaking.add(math); //returns distance away from 0.5 ( 0.5 is a perfect match )
         }
 
-
-        List<Float> temp=new ArrayList<Float>(matchmaking);// creating a temp array to hold he distances from the target user
+        // creating a temp array to hold he distances from the target user
+        List<Float> temp=new ArrayList<Float>(matchmaking);
         Collections.sort(temp); //sort them in order of smallest to biggest
         List<Float> sorted=new ArrayList<Float>();
         for(int i=1; i<=5;i++){ //this is to get the top 5 of the sorted list of distances
             sorted.add(temp.get(i));
         }
 
-        List<String> indexlist= new ArrayList<String>(); //5 resultes of the users that best ( closest) to the signe-in user
+        //5 resultes of the users that best ( closest) to the sign-in user
+        List<String> indexlist= new ArrayList<String>();
         for(int j=0;j<sorted.size();j++){
             for(int i=0;i<matchmaking.size();i++){
                 if (Float.compare(matchmaking.get(i),sorted.get(j))==0){
                     if(!indexlist.contains(eloDB.get(i).getString("username"))) {
-                        indexlist.add(eloDB.get(i).getString("username"));// retrieve username of the closest match and add to index list
+                        // retrieve username of the closest match and add to index list
+                        indexlist.add(eloDB.get(i).getString("username"));
                         break;
                     }
                 }
@@ -428,12 +409,30 @@ public class MyMatchYa {
         System.out.println(indexlist);
 
         return indexlist;
-
     }
 
-
+    /**
+     * Calculate the probability between two users score
+     * */
     static float Probability(float rating1, float rating2){ //calculate the probability between two users score
-        return 1.0f / (1 + (float) (Math.pow(10, (rating1 - rating2) / 400))); // comparing the scores the result is the new score, with the compared user's score considered
+        // comparing the scores the result is the new score, with the compared user's score considered
+        return 1.0f / (1 + (float) (Math.pow(10, (rating1 - rating2) / 400)));
     }
 
+    /**
+     * Apply Elo algorithm and update the data set's score filed and list the Five best matches
+     * */
+    public static void applyElo(String userNum, MongoCollection<Document> collection) {
+        List<Document> eloDB = collection.find().projection(Projections.fields(Projections.include
+                ("inversions","username"),Projections.excludeId())).into(new ArrayList<Document>());
+        //document of usernames and scores (paired)
+        Document userInput = collection.find((eq("username",userNum))).projection(Projections.fields
+                (Projections.include("inversions"),Projections.excludeId())).first();
+
+        List<String> output = eloFunction(eloDB, userInput ); //call elo function
+
+        //update DB with a closest value connecting it back to the corresponding user
+        collection.updateOne((eq("username",userNum)),new Document("$set", new Document("closest", output)));
+
+    }
 }

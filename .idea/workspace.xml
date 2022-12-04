@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a9c17f-8610-498a-8cfc-ceb075caf6da" name="Default" comment="" />
+    <list default="true" id="35a9c17f-8610-498a-8cfc-ceb075caf6da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java" afterPath="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,19 +39,19 @@
       <file leaf-file-name="MyMatchYa.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1048">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="347">
+              <caret line="429" column="48" lean-forward="false" selection-start-line="429" selection-start-column="48" selection-end-line="429" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2293#2321#0" expanded="true" />
-                <element signature="e#7595#7623#0" expanded="true" />
-                <element signature="e#8016#8025#0" expanded="true" />
-                <element signature="e#14768#14775#0" expanded="true" />
-                <element signature="e#15579#15586#0" expanded="true" />
-                <element signature="e#15635#15642#0" expanded="true" />
-                <element signature="e#16323#16330#0" expanded="true" />
-                <element signature="e#16527#16534#0" expanded="true" />
-                <element signature="e#16722#16730#0" expanded="true" />
+                <element signature="e#6995#7023#0" expanded="true" />
+                <element signature="e#7525#7534#0" expanded="true" />
+                <element signature="e#13509#13516#0" expanded="true" />
+                <element signature="e#14330#14337#0" expanded="true" />
+                <element signature="e#14386#14393#0" expanded="true" />
+                <element signature="e#15148#15155#0" expanded="true" />
+                <element signature="e#15286#15293#0" expanded="true" />
+                <element signature="e#15556#15564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +60,7 @@
       <file leaf-file-name="Comparison.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/Comparison.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
+            <state relative-caret-position="902">
               <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding />
             </state>
@@ -67,8 +70,8 @@
       <file leaf-file-name="ParallelCountingInversions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ParallelCountingInversions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="78">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1524#1525#0" expanded="true" />
@@ -110,10 +113,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ImportJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ParallelCountingInversions.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/Comparison.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MongoDBHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MongoDBTestConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ParallelCountingInversions.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java" />
       </list>
     </option>
@@ -386,11 +389,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30261138" sideWeight="0.5031447" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5437788" sideWeight="0.49685535" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.66513056" sideWeight="0.49685535" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35176653" sideWeight="0.49685535" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7265745" sideWeight="0.49685535" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18515359" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14675768" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -413,25 +416,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>180</line>
+          <line>172</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>263</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>264</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>216</line>
+          <line>210</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -482,14 +473,14 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2293#2321#0" expanded="true" />
-            <element signature="e#7595#7623#0" expanded="true" />
-            <element signature="e#8016#8025#0" expanded="true" />
-            <element signature="e#14768#14775#0" expanded="true" />
-            <element signature="e#15579#15586#0" expanded="true" />
-            <element signature="e#15635#15642#0" expanded="true" />
-            <element signature="e#16323#16330#0" expanded="true" />
-            <element signature="e#16527#16534#0" expanded="true" />
-            <element signature="e#16722#16730#0" expanded="true" />
+            <element signature="e#6995#7023#0" expanded="true" />
+            <element signature="e#7525#7534#0" expanded="true" />
+            <element signature="e#13509#13516#0" expanded="true" />
+            <element signature="e#14330#14337#0" expanded="true" />
+            <element signature="e#14386#14393#0" expanded="true" />
+            <element signature="e#15148#15155#0" expanded="true" />
+            <element signature="e#15286#15293#0" expanded="true" />
+            <element signature="e#15556#15564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,14 +516,14 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2293#2321#0" expanded="true" />
-            <element signature="e#7595#7623#0" expanded="true" />
-            <element signature="e#8016#8025#0" expanded="true" />
-            <element signature="e#14768#14775#0" expanded="true" />
-            <element signature="e#15579#15586#0" expanded="true" />
-            <element signature="e#15635#15642#0" expanded="true" />
-            <element signature="e#16323#16330#0" expanded="true" />
-            <element signature="e#16527#16534#0" expanded="true" />
-            <element signature="e#16722#16730#0" expanded="true" />
+            <element signature="e#6995#7023#0" expanded="true" />
+            <element signature="e#7525#7534#0" expanded="true" />
+            <element signature="e#13509#13516#0" expanded="true" />
+            <element signature="e#14330#14337#0" expanded="true" />
+            <element signature="e#14386#14393#0" expanded="true" />
+            <element signature="e#15148#15155#0" expanded="true" />
+            <element signature="e#15286#15293#0" expanded="true" />
+            <element signature="e#15556#15564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ParallelCountingInversions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="78">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1524#1525#0" expanded="true" />
@@ -615,7 +606,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/Comparison.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
+        <state relative-caret-position="902">
           <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
           <folding />
         </state>
@@ -623,19 +614,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1048">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="347">
+          <caret line="429" column="48" lean-forward="false" selection-start-line="429" selection-start-column="48" selection-end-line="429" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2293#2321#0" expanded="true" />
-            <element signature="e#7595#7623#0" expanded="true" />
-            <element signature="e#8016#8025#0" expanded="true" />
-            <element signature="e#14768#14775#0" expanded="true" />
-            <element signature="e#15579#15586#0" expanded="true" />
-            <element signature="e#15635#15642#0" expanded="true" />
-            <element signature="e#16323#16330#0" expanded="true" />
-            <element signature="e#16527#16534#0" expanded="true" />
-            <element signature="e#16722#16730#0" expanded="true" />
+            <element signature="e#6995#7023#0" expanded="true" />
+            <element signature="e#7525#7534#0" expanded="true" />
+            <element signature="e#13509#13516#0" expanded="true" />
+            <element signature="e#14330#14337#0" expanded="true" />
+            <element signature="e#14386#14393#0" expanded="true" />
+            <element signature="e#15148#15155#0" expanded="true" />
+            <element signature="e#15286#15293#0" expanded="true" />
+            <element signature="e#15556#15564#0" expanded="true" />
           </folding>
         </state>
       </provider>
