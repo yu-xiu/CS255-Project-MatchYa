@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a9c17f-8610-498a-8cfc-ceb075caf6da" name="Default" comment="" />
+    <list default="true" id="35a9c17f-8610-498a-8cfc-ceb075caf6da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +35,54 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="MyMatchYa.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1220">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+      <file leaf-file-name="MyMatchYa.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5370">
+              <caret line="42" column="71" lean-forward="false" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1848#1876#0" expanded="true" />
+                <element signature="e#6396#6424#0" expanded="true" />
+                <element signature="e#6926#6935#0" expanded="true" />
+                <element signature="e#12910#12917#0" expanded="true" />
+                <element signature="e#13756#13763#0" expanded="true" />
+                <element signature="e#13812#13819#0" expanded="true" />
+                <element signature="e#14574#14581#0" expanded="true" />
+                <element signature="e#14712#14719#0" expanded="true" />
+                <element signature="e#14982#14990#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comparison.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/Comparison.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParallelCountingInversions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ParallelCountingInversions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+>>>>>>> tiffany-branch
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +100,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>array</find>
+      <find>63756496a546c9ad7fac9fd5</find>
+      <find>Alex</find>
+      <find>daeni</find>
+      <find>System.out.println</find>
+      <find>List</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,15 +120,18 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ImportJSON.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/Comparison.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MongoDBHelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MongoDBTestConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ParallelCountingInversions.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
+    <option name="x" value="47" />
     <option name="y" value="25" />
-    <option name="width" value="1106" />
+    <option name="width" value="1214" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -194,14 +245,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="MongoDBHelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MongoDBTestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.sjsu.matchya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="edu.sjsu.matchya.MongoDBHelloWorld" />
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.matchya.MongoDBTestConnection" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -307,13 +358,13 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.MongoDBHelloWorld" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MongoDBTestConnection" />
       <item index="1" class="java.lang.String" itemvalue="Application.MyMatchYa" />
     </list>
     <recent_temporary>
       <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.MyMatchYa" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MongoDBHelloWorld" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MongoDBTestConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -392,32 +443,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>102</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>151</line>
+          <line>163</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>136</line>
+          <line>201</line>
           <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java</url>
-          <line>175</line>
-          <properties class="edu.sjsu.matchya.MyMatchYa" method="getTestArray">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -444,6 +481,18 @@
           <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#1848#1876#0" expanded="true" />
+            <element signature="e#6396#6424#0" expanded="true" />
+            <element signature="e#6926#6935#0" expanded="true" />
+            <element signature="e#12910#12917#0" expanded="true" />
+            <element signature="e#13756#13763#0" expanded="true" />
+            <element signature="e#13812#13819#0" expanded="true" />
+            <element signature="e#14574#14581#0" expanded="true" />
+            <element signature="e#14712#14719#0" expanded="true" />
+            <element signature="e#14982#14990#0" expanded="true" />
+>>>>>>> tiffany-branch
           </folding>
         </state>
       </provider>
@@ -478,6 +527,15 @@
           <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1848#1876#0" expanded="true" />
+            <element signature="e#6396#6424#0" expanded="true" />
+            <element signature="e#6926#6935#0" expanded="true" />
+            <element signature="e#12910#12917#0" expanded="true" />
+            <element signature="e#13756#13763#0" expanded="true" />
+            <element signature="e#13812#13819#0" expanded="true" />
+            <element signature="e#14574#14581#0" expanded="true" />
+            <element signature="e#14712#14719#0" expanded="true" />
+            <element signature="e#14982#14990#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -510,6 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -569,27 +628,50 @@
         <state relative-caret-position="61">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
+=======
+>>>>>>> tiffany-branch
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ImportJSON.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+>>>>>>> tiffany-branch
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MongoDBHelloWorld.java">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/App.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+=======
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1003" column="29" lean-forward="false" selection-start-line="1003" selection-start-column="15" selection-end-line="1003" selection-end-column="29" />
+>>>>>>> tiffany-branch
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MongoDBTestConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="60">
           <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
@@ -614,24 +696,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+=======
+        <state relative-caret-position="53">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+>>>>>>> tiffany-branch
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ImportJSON.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MongoDBHelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5370">
+          <caret line="42" column="71" lean-forward="false" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1848#1876#0" expanded="true" />
+            <element signature="e#6396#6424#0" expanded="true" />
+            <element signature="e#6926#6935#0" expanded="true" />
+            <element signature="e#12910#12917#0" expanded="true" />
+            <element signature="e#13756#13763#0" expanded="true" />
+            <element signature="e#13812#13819#0" expanded="true" />
+            <element signature="e#14574#14581#0" expanded="true" />
+            <element signature="e#14712#14719#0" expanded="true" />
+            <element signature="e#14982#14990#0" expanded="true" />
+          </folding>
+>>>>>>> tiffany-branch
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/MyMatchYa.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/Comparison.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sjsu/matchya/ParallelCountingInversions.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1220">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+        <state relative-caret-position="61">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+>>>>>>> tiffany-branch
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
           </folding>
         </state>
       </provider>
