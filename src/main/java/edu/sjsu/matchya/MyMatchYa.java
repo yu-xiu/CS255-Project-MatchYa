@@ -38,44 +38,35 @@ public class MyMatchYa {
 //        // Prints out the document.
 //        System.out.println(Objects.requireNonNull(document).toJson());
 
-        //System.out.println("------------test comparison of 3 counting inversions methods-------------");
 
-        /*** call the following methods to do the experiment of comparing the running time*/
+
+        /*** call the following methods to experiment the comparison of the running time */
+
+//        System.out.println("------------test comparison of 3 counting inversions methods-------------");
 //        Comparison.testDCC();
 //        Comparison.testNaiveC();
 //        Comparison.testParallelC();
 
         System.out.println();
 
-//        // get the username, inversions from the db
-//        List<Document> rankingDB = collection.find().projection(Projections.fields(Projections.include(
-//                "username"))).into(new ArrayList<Document>());
-//        for (Document d : rankingDB) {
-//            System.out.println(Objects.requireNonNull(d).toJson());
-//        }
-
-        //System.out.println("__________________test read rankings of user from DB__________________");
-        // the username and the list of rankings pair
+        // the username and the list of answer-rankings pair
         HashMap<String, ArrayList<Integer>> map = new HashMap<String, ArrayList<Integer>>();
         map = getRankingArrayFromDB(collection);
 
-        //System.out.println("____________________test inversion list________________");
         // the username and inversion score pair
         HashMap<String, Integer> usrScorePair = computeInversions(map);
-
-        // call the elo algorithm to list 5 matches
-        //list document of all usernames and scores
-        //get user input ( username of a user within the DB )
 
         // update DB score and inversions field
         updateDBInversionsAndScore(usrScorePair, collection);
 
+        // prompt a user input
         Scanner input = new Scanner(System.in);
         System.out.println("Enter username");
 
         String userNum = input.nextLine();  // Read user input
         System.out.println("Username is: " + userNum);
 
+        // using the user input and use elo to get a five best matches
         applyElo(userNum, collection);
 
     }
@@ -370,6 +361,7 @@ public class MyMatchYa {
         // Ra and Rb are the two to compare in the Elo algo
         float Ra = currentUserScore, Rb;
 
+        // a rating list
         List<Float> ratingList=new ArrayList<Float>();
         List<Float> matchmaking=new ArrayList<Float>();
 
