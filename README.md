@@ -1,5 +1,5 @@
 # CS255-Project-MatchYa
-The CS255 Group Project - Tiffant and Rebecca
+The CS255 Group Project - Tiffany and Rebecca
 ## Introduction
 MatchYa is a dating APP that uses Counting Inversions algorihtm and Elo algorihtm to recommend the five best matches list of users to the current user.
 The Counting Inversions algorihtm is implemented with three methods: the Naive, Divide and Conquer, and the Multithreaded solutions.
