@@ -16,4 +16,12 @@ src
         |_ ParallelCountingInversions
 ```
 ## Pre-requisite
-Install MongoDB and our dataset
+Install and connect to MongoDB (may use a Maven project)
+```
+The installation and how to set up the mogonDB can be referenced in our Sprint 1
+
+```
+Add myMatchyaDB.json to the MongoDB database
+```
+https://github.com/yu-xiu/CS255-Project-MatchYa/blob/master/myMatchyaDB.json
+```
