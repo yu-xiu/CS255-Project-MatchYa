@@ -1,0 +1,4408 @@
+[{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da2"
+  },
+  "username": "daeni",
+  "score": 30,
+  "inversions": 30,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 0,
+    "pop": 4,
+    "rock": 3,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 2,
+    "Fantasy": 1,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 0,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 0,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 4,
+    "always full of life and energy": 3,
+    "Life struggles": 2,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da3"
+  },
+  "username": "italiana 92",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da4"
+  },
+  "username": "Lauraaa",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da5"
+  },
+  "username": "Qqkwmdowlo",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da6"
+  },
+  "username": "schaessie {3",
+  "score": 10,
+  "inversions": 10,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da7"
+  },
+  "username": "Baby dee",
+  "score": 22,
+  "inversions": 22,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da8"
+  },
+  "username": "Anna",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7da9"
+  },
+  "username": "Feelinchen",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7daa"
+  },
+  "username": "chantal",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dab"
+  },
+  "username": "Jake L",
+  "score": 28,
+  "inversions": 28,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dac"
+  },
+  "username": "Unstable Brother",
+  "score": 18,
+  "inversions": 18,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dad"
+  },
+  "username": "Nunya Business",
+  "score": 18,
+  "inversions": 18,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dae"
+  },
+  "username": "Andre Batchelder",
+  "score": 14,
+  "inversions": 14,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7daf"
+  },
+  "username": "Harmanpreet Singh Bansal",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db0"
+  },
+  "username": "Richie ‚ÄúOddBod‚Äù Smith",
+  "score": 18,
+  "inversions": 18,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db1"
+  },
+  "username": "M D",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db2"
+  },
+  "username": "kinjal joshi",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db3"
+  },
+  "username": "Herbert Habanero",
+  "score": 26,
+  "inversions": 26,
+  "gender": "M",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db4"
+  },
+  "username": "Alex",
+  "score": 22,
+  "inversions": 22,
+  "gender": "M",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  },
+  "closest": [
+    "italiana 92",
+    "Qqkwmdowlo",
+    "Baby dee",
+    "chantal",
+    "M D"
+  ]
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db5"
+  },
+  "username": "Alice Amanova",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db6"
+  },
+  "username": "Sheejal Shah",
+  "score": 14,
+  "inversions": 14,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db7"
+  },
+  "username": "William Rodriguez",
+  "score": 26,
+  "inversions": 26,
+  "gender": "M",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db8"
+  },
+  "username": "Kitten",
+  "score": 26,
+  "inversions": 26,
+  "gender": "M",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7db9"
+  },
+  "username": "Laury W",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dba"
+  },
+  "username": "Gerald",
+  "score": 12,
+  "inversions": 12,
+  "gender": "F",
+  "gender looking for": "both",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dbb"
+  },
+  "username": "Bob Sloppy",
+  "score": 16,
+  "inversions": 16,
+  "gender": "M",
+  "gender looking for": "both",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dbc"
+  },
+  "username": "manas khandelwal",
+  "score": 12,
+  "inversions": 12,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dbd"
+  },
+  "username": "Martin Tyralk",
+  "score": 14,
+  "inversions": 14,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dbe"
+  },
+  "username": "joshua hensley",
+  "score": 16,
+  "inversions": 16,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dbf"
+  },
+  "username": "Joseph Broussard II",
+  "score": 24,
+  "inversions": 24,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc0"
+  },
+  "username": "Sharkquisha ¬°",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc1"
+  },
+  "username": "olivia maake",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc2"
+  },
+  "username": "Kris",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc3"
+  },
+  "username": "Geraldo Espinosa",
+  "score": 28,
+  "inversions": 28,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc4"
+  },
+  "username": "Moneeb Nain",
+  "score": 10,
+  "inversions": 10,
+  "gender": "F",
+  "gender looking for": "both",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc5"
+  },
+  "username": "Monique Armstrong",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc6"
+  },
+  "username": "Thomas S.",
+  "score": 14,
+  "inversions": 14,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc7"
+  },
+  "username": "P Clark",
+  "score": 6,
+  "inversions": 6,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc8"
+  },
+  "username": "fraser",
+  "score": 12,
+  "inversions": 12,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dc9"
+  },
+  "username": "Thomas Murcko",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dca"
+  },
+  "username": "Tyler Bates",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dcb"
+  },
+  "username": "navaro20",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dcc"
+  },
+  "username": "Kayley Stewart",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dcd"
+  },
+  "username": "Indie williams",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dce"
+  },
+  "username": "Justus Diehl",
+  "score": 10,
+  "inversions": 10,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dcf"
+  },
+  "username": "Christian J",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd0"
+  },
+  "username": "Paul Faulkner",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd1"
+  },
+  "username": "H G",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd2"
+  },
+  "username": "Cristopher Adorno Rodriguez",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd3"
+  },
+  "username": "Andr√°s Bobo F√ºgedi",
+  "score": 14,
+  "inversions": 14,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd4"
+  },
+  "username": "What's It To Ya",
+  "score": 14,
+  "inversions": 14,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd5"
+  },
+  "username": "Pontus Joppe",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd6"
+  },
+  "username": "R/C McGuyver",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd7"
+  },
+  "username": "michael whitsel",
+  "score": 16,
+  "inversions": 16,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd8"
+  },
+  "username": "Joel A",
+  "score": 16,
+  "inversions": 16,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dd9"
+  },
+  "username": "smoke1037",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dda"
+  },
+  "username": "James",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7ddb"
+  },
+  "username": "Baby dee",
+  "score": 58,
+  "inversions": 10,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7ddc"
+  },
+  "username": "maryline04",
+  "score": 28,
+  "inversions": 28,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7ddd"
+  },
+  "username": "Alisa",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dde"
+  },
+  "username": "paar sucht !!!",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7ddf"
+  },
+  "username": "Mariana",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de0"
+  },
+  "username": "Melissa",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de1"
+  },
+  "username": "Layla",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de2"
+  },
+  "username": "Carmen",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de3"
+  },
+  "username": "Laurine",
+  "score": 10,
+  "inversions": 10,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de4"
+  },
+  "username": "Lindsay",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de5"
+  },
+  "username": "Laura",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de6"
+  },
+  "username": "Jessica",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de7"
+  },
+  "username": "karma",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de8"
+  },
+  "username": "Glaser_",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7de9"
+  },
+  "username": "jess",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dea"
+  },
+  "username": "Coralie",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7deb"
+  },
+  "username": "Sarah",
+  "score": 26,
+  "inversions": 26,
+  "gender": "F",
+  "gender looking for": "both",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dec"
+  },
+  "username": "Lucie lulu",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7ded"
+  },
+  "username": "++Lavina <3++",
+  "score": 20,
+  "inversions": 20,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dee"
+  },
+  "username": "Denise",
+  "score": 18,
+  "inversions": 18,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7def"
+  },
+  "username": "Merle a",
+  "score": 16,
+  "inversions": 16,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df0"
+  },
+  "username": "Sarah",
+  "score": 79,
+  "inversions": 10,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df1"
+  },
+  "username": "Sazzaa",
+  "score": 22,
+  "inversions": 22,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df2"
+  },
+  "username": "Sandra",
+  "score": 14,
+  "inversions": 14,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df3"
+  },
+  "username": "Nicholas Vrouvas",
+  "score": 26,
+  "inversions": 26,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df4"
+  },
+  "username": "Rockhill Christopher, A",
+  "score": 22,
+  "inversions": 22,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df5"
+  },
+  "username": "Peter Mills",
+  "score": 20,
+  "inversions": 20,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 2,
+    "Spending on looks": 3,
+    "Branded clothing": 4,
+    "fragual with money": 0,
+    "Only what you need": 1
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df6"
+  },
+  "username": "moicel32",
+  "score": 20,
+  "inversions": 20,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df7"
+  },
+  "username": "Elisa Juan-Rod.",
+  "score": 16,
+  "inversions": 16,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df8"
+  },
+  "username": "john stevens Stevens",
+  "score": 20,
+  "inversions": 20,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7df9"
+  },
+  "username": "Jacob Phoan",
+  "score": 20,
+  "inversions": 20,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 3,
+    "Spending on looks": 4,
+    "Branded clothing": 0,
+    "fragual with money": 1,
+    "Only what you need": 2
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dfa"
+  },
+  "username": "Zetax97",
+  "score": 22,
+  "inversions": 22,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 1,
+    "History": 2,
+    "Reading": 3,
+    "Dancing": 4,
+    "Outdoor activity": 0
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dfb"
+  },
+  "username": "Flexo",
+  "score": 22,
+  "inversions": 22,
+  "gender": "M",
+  "gender looking for": "both",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dfc"
+  },
+  "username": "Alex Lantz",
+  "score": 20,
+  "inversions": 20,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 1,
+    "Spending on looks": 2,
+    "Branded clothing": 3,
+    "fragual with money": 4,
+    "Only what you need": 0
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dfd"
+  },
+  "username": "Arjun M",
+  "score": 16,
+  "inversions": 16,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dfe"
+  },
+  "username": "James Leandre",
+  "score": 24,
+  "inversions": 24,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 1,
+    "country": 2,
+    "pop": 3,
+    "rock": 4,
+    "jazz": 0
+  },
+  "movie": {
+    "Horror": 3,
+    "Comedy": 4,
+    "Sci-fi": 0,
+    "Fantasy": 1,
+    "Action": 2
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7dff"
+  },
+  "username": "Josh Moore",
+  "score": 18,
+  "inversions": 18,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7e00"
+  },
+  "username": "SOMEBODY WEIRD",
+  "score": 18,
+  "inversions": 18,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 4,
+    "Comedy": 0,
+    "Sci-fi": 1,
+    "Fantasy": 2,
+    "Action": 3
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7e01"
+  },
+  "username": "Nathaniel Ryan",
+  "score": 14,
+  "inversions": 14,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 3,
+    "country": 4,
+    "pop": 0,
+    "rock": 1,
+    "jazz": 2
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 0,
+    "History": 1,
+    "Reading": 2,
+    "Dancing": 3,
+    "Outdoor activity": 4
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 4,
+    "cry when feel down": 0,
+    "always full of life and energy": 1,
+    "Life struggles": 2,
+    "Happiness in life": 3
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7e02"
+  },
+  "username": "Harsh",
+  "score": 16,
+  "inversions": 16,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 0,
+    "country": 1,
+    "pop": 2,
+    "rock": 3,
+    "jazz": 4
+  },
+  "movie": {
+    "Horror": 2,
+    "Comedy": 3,
+    "Sci-fi": 4,
+    "Fantasy": 0,
+    "Action": 1
+  },
+  "hobbies": {
+    "Mathmetics": 2,
+    "History": 3,
+    "Reading": 4,
+    "Dancing": 0,
+    "Outdoor activity": 1
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 0,
+    "cry when feel down": 1,
+    "always full of life and energy": 2,
+    "Life struggles": 3,
+    "Happiness in life": 4
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7e03"
+  },
+  "username": "Kevin Brown",
+  "score": 20,
+  "inversions": 20,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 1,
+    "cry when feel down": 2,
+    "always full of life and energy": 3,
+    "Life struggles": 4,
+    "Happiness in life": 0
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7e04"
+  },
+  "username": "cindy powell",
+  "score": 24,
+  "inversions": 24,
+  "gender": "F",
+  "gender looking for": "M",
+  "music": {
+    "slow songs": 2,
+    "country": 3,
+    "pop": 4,
+    "rock": 0,
+    "jazz": 1
+  },
+  "movie": {
+    "Horror": 1,
+    "Comedy": 2,
+    "Sci-fi": 3,
+    "Fantasy": 4,
+    "Action": 0
+  },
+  "hobbies": {
+    "Mathmetics": 4,
+    "History": 0,
+    "Reading": 1,
+    "Dancing": 2,
+    "Outdoor activity": 3
+  },
+  "shopping": {
+    "large shopping centers": 4,
+    "Spending on looks": 0,
+    "Branded clothing": 1,
+    "fragual with money": 2,
+    "Only what you need": 3
+  },
+  "opinions": {
+    "get angry very easily": 3,
+    "cry when feel down": 4,
+    "always full of life and energy": 0,
+    "Life struggles": 1,
+    "Happiness in life": 2
+  }
+},{
+  "_id": {
+    "$oid": "637b0a23055e3dc8a0ed7e05"
+  },
+  "username": "Ian Troge",
+  "score": 16,
+  "inversions": 16,
+  "gender": "M",
+  "gender looking for": "F",
+  "music": {
+    "slow songs": 4,
+    "country": 0,
+    "pop": 1,
+    "rock": 2,
+    "jazz": 3
+  },
+  "movie": {
+    "Horror": 0,
+    "Comedy": 1,
+    "Sci-fi": 2,
+    "Fantasy": 3,
+    "Action": 4
+  },
+  "hobbies": {
+    "Mathmetics": 3,
+    "History": 4,
+    "Reading": 0,
+    "Dancing": 1,
+    "Outdoor activity": 2
+  },
+  "shopping": {
+    "large shopping centers": 0,
+    "Spending on looks": 1,
+    "Branded clothing": 2,
+    "fragual with money": 3,
+    "Only what you need": 4
+  },
+  "opinions": {
+    "get angry very easily": 2,
+    "cry when feel down": 3,
+    "always full of life and energy": 4,
+    "Life struggles": 0,
+    "Happiness in life": 1
+  }
+}]
