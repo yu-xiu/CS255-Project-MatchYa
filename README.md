@@ -19,7 +19,7 @@ src
 Install and connect to MongoDB (may use a Maven project)
 ```
 The installation and how to set up the mogonDB can be referenced in our Sprint 1
-
+https://github.com/yu-xiu/CS255-Project-MatchYa/blob/master/Sprint%201%20Report.pdf
 ```
 Add myMatchyaDB.json to the MongoDB database
 ```
