@@ -3,7 +3,7 @@ The CS255 Group Project
 ## Introduction
 MatchYa is a dating APP that uses Counting Inversions algorihtm and Elo algorihtm to recommend the five best matches list of users to the current user.
 The Counting Inversions algorihtm is implemented with three methods: the Naive, Divide and Conquer, and the Multithreaded solutions.
-We aslo have a Comparison experiment to compare the three solutions.
+We aslo have a Comparison experiment to compare the running time of three solutions using various size of input arrays.
 ## Pre-requisite
 Install and connect to MongoDB (may use a Maven project)<br />
 The installation and how to set up the mogonDB can be referenced in our Sprint 1
