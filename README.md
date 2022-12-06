@@ -15,6 +15,15 @@ This is the myMatchyaDB.json file
 ```
 https://github.com/yu-xiu/CS255-Project-MatchYa/blob/master/myMatchyaDB.json
 ```
+Start the connection to MongoDB <br />
+Mac termial:
+```
+brew service list
+```
+when seeing started, open a new terminal and type:
+```
+mongosh
+```
 ## Project Architecture
 ```
 src
@@ -26,3 +35,5 @@ src
         |_ MyMacthYa (main)
         |_ ParallelCountingInversions
 ```
+### Run MyMacthYa
+MyMacthYa contains the main function<br />
