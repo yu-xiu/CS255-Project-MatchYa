@@ -15,3 +15,5 @@ src
         |_ MyMacthYa (main)
         |_ ParallelCountingInversions
 ```
+## Pre-requisite
+Install MongoDB and our dataset
